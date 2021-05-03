@@ -26,9 +26,9 @@
 <form action="{{ route('store') }}" method="POST">
     @csrf
     First Name:
-    <input type="text" name="firstname" class="form-control" placeholder="First Name">
+    <input type="text" name="first_name" class="form-control" placeholder="First Name">
     Last Name:
-    <input type="text" name="lastname" class="form-control" placeholder="Last Name">
+    <input type="text" name="last_name" class="form-control" placeholder="Last Name">
     <button type="submit" class="btn btn-primary mt-2">Submit</button>
 </form>    
 
